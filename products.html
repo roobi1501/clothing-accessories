@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>Products - Clothing and Accessories</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo logo-flex">
+                <img src="public/images/logo1.png" alt="Elite Wear Logo" class="logo-img">
+                <span class="logo-wear">Wear</span>
+            </a>
+
+            <div class="search-container">
+                <form action="/search" method="GET" class="search-form">
+                    <input type="text" name="q" placeholder="Search for products..." class="search-input">
+                    <button type="submit" class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="vertical-text"></div>
+
+    <section class="product-detail">
+        <h2>Trendy Looks Just for YOU</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image1.jpg">
+                <h3>Product 1</h3>
+                <p>₹499</p>
+                <button onClick="addToCart('Product 1, 499')"> Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image2.webp" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>₹460</p>
+                <button onclick="addToCart('Product 2', 460)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image3.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>₹150</p>
+                <button onclick="addToCart('Product 3', 150)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image4.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>₹699</p>
+                <button onclick="addToCart('Product 4', 699)">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-container">
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image5.jfif">
+                <h3>Product 1</h3>
+                <p>₹499</p>
+                <button onClick="addToCart('Product 1, 499')"> Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image6.webp" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>₹460</p>
+                <button onclick="addToCart('Product 2', 460)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image7.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>₹150</p>
+                <button onclick="addToCart('Product 3', 150)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image8.png" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>₹699</p>
+                <button onclick="addToCart('Product 4', 699)">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-container">
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image9.jfif">
+                <h3>Product 1</h3>
+                <p>₹499</p>
+                <button onClick="addToCart('Product 1, 499')"> Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image10.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>₹460</p>
+                <button onclick="addToCart('Product 2', 460)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image11.jfif" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>₹150</p>
+                <button onclick="addToCart('Product 3', 150)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image12.jfif" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>₹699</p>
+                <button onclick="addToCart('Product 4', 699)">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-container">
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image13.webp">
+                <h3>Product 1</h3>
+                <p>₹499</p>
+                <button onClick="addToCart('Product 1, 499')"> Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image14.jfif" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>₹460</p>
+                <button onclick="addToCart('Product 2', 460)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image15.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>₹150</p>
+                <button onclick="addToCart('Product 3', 150)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-card-img" src="public/images/image16.jfif" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>₹699</p>
+                <button onclick="addToCart('Product 4', 699)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!----Add more products here
+        jjhihijskdikjfkj-->
+
+
+    </section>
+    <footer>
+        <p>Contact us at: info@elitewearstore.com</p>
+        <p>&copy; 2025 Clothing & Accessories</p>
+    </footer>
+
+    </div>
+    </section>
+</body>
+
+</html>
