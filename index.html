@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Wear - Your Premium Shopping Destination</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo logo-flex"><img src="images/Wear_logo.png" alt="Elite Wear Logo" class="logo-img"></a>
+            <div class="search-container">
+                <form action="/search" method="GET" class="search-form">
+                    <input type="text" name="q" placeholder="Search for products..." class="search-input">
+                    <button type="submit" class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Fashion Forward</h1>
+            <p>Trends you’ll love. Quality you’ll wear</p>
+            <div class="hero-buttons">
+                <a href="products.html?category=clothing" class="btn btn-primary">Shop Clothing</a>
+                <a href="products.html?category=accessories" class="btn btn-secondary">Shop Accessories</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products container">
+        <h2 class="section-title">Trending Now</h2>
+        <div class="products-grid">
+            <!-- Product Card 1 -->
+            <div class="product-card">
+                <img src="images/Floral_shirt.jpg" alt="Summer Dress" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Floral Shirt</h3>
+                    <p class="product-price">₹499</p>
+                    <button class="btn btn-primary" onclick="addToCart(1)">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="product-card">
+                <img src="images/Leather_Jacket.png" alt="Leather Jacket" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Leather Jacket</h3>
+                    <p class="product-price">₹1,999</p>
+                    <button class="btn btn-primary" onclick="addToCart(2)">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="product-card">
+                <img src="images/Hoop_Earring.jpg" alt="Designer Sunglasses" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Hoop Earring</h3>
+                    <p class="product-price">₹1299</p>
+                    <button class="btn btn-primary" onclick="addToCart(3)">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 4 -->
+            <div class="product-card">
+                <img src="images/Simple_Kurti.jpg" alt="Statement Necklace" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Simple Kurti</h3>
+                    <p class="product-price">₹699</p>
+                    <button class="btn btn-primary" onclick="addToCart(4)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories container">
+        <h2 class="section-title">Shop by Category</h2>
+        <div class="categories-grid">
+            <a href="products.html?category=women" class="category-card">
+                <img src="images/image10.jpg" alt="Women's Fashion">
+                <h3>Women's Fashion</h3>
+            </a>
+            <a href="products.html?category=men" class="category-card">
+                <img src="images/Mens_fashion.png" alt="Men's Fashion">
+                <h3>Men's Fashion</h3>
+            </a>
+            <a href="products.html?category=accessories" class="category-card">
+                <img src="images/image14.jfif.jpg" alt="Accessories">
+                <h3>Accessories</h3>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Elite Wear is your destination for effortlessly stylish clothing and accessories.
+                Minimal effort, maximum style — just how fashion should be.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>Email: info@elitewear.com</p>
+                <p>Phone: +91 98765 4321</p>
+                <p>Address: 31/Kuruku santhu, Chennai</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
