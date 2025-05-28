@@ -299,3 +299,69 @@ Body {
 .button-color{
     background-color: #d60087;
 }
+
+/* about page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-hero {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 3rem 1rem;
+    padding-top: 110px;
+}
+
+.about-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #d60087;
+}
+
+.about-content {
+    padding-top: 1rem;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+}
+
+.about-content article {
+    margin-bottom: 2rem;
+}
+
+.about-content h2 {
+    margin-bottom: 0.5rem;
+    color: #222;
+    color: #d60087;
+}
+
+.about-content ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.75rem;
+        align-items: flex-start;
+    }
+
+    .about-content {
+        padding: 2rem 1rem;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #d60087;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
