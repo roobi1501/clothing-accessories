@@ -4,7 +4,6 @@ Body {
     Padding: 0;
 }
 
-
 .navbar {
     List-style: none;
     Display: flex;
@@ -36,11 +35,6 @@ Body {
     Padding: 20px;
 }
 
-.product-card-img {
-    Max-width: 100%;
-    Height: 50%;
-}
-
 .product-card button {
     Margin-top: 10px;
     Background-color: #28a745;
@@ -69,8 +63,6 @@ Body {
     margin: 10px;
     font-weight: bold;
 }
-
-
 
 .product-info {
     text-align: center;
@@ -106,10 +98,6 @@ Body {
     background-color: #ffc107;
     border: none;
 }
-
-
-
-
 
 :root {
     --primary-color: #d60087;
@@ -149,7 +137,7 @@ Body {
 }
 
 .logo-img {
-    height: 50px;
+    height: 70px;
 }
 
 .logo-wear {
@@ -234,7 +222,6 @@ Body {
     text-decoration: none;
 }
 
-
 .menu {
     position: sticky;
     top: 0;
@@ -246,13 +233,17 @@ Body {
     border: #333;
 }
 
-
 .product-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
     padding: 15px;
+}
+
+.cart-button {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .product-detail {
@@ -263,6 +254,11 @@ Body {
     padding-top: 100px;
 }
 
+.product-card-img {
+    width: max-content;
+    Height: 70%;
+}
+
 .product-card {
     border: 1px solid #ccc;
     background-color: #f7d7ea;
@@ -271,12 +267,13 @@ Body {
     height: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left;
+
 }
 
 .vertical-text {
     position: fixed;
     top: 58%;
-    left: 40px; 
+    left: 40px;
     transform: rotate(0deg) translateY(-50%) translateX(10px);
     transform-origin: left top;
     font-size: 1.2em;
@@ -299,3 +296,6 @@ Body {
     color: #e45db2;
 }
 
+.button-color{
+    background-color: #d60087;
+}
