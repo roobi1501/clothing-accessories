@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product 12 - Elite Wear</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="../index.html" class="logo logo-flex"><img src="../images/Wear_logo.png" alt="Elite Wear Logo" class="logo-img"></a>
+            <div class="search-container">
+                <form action="/search" method="GET" class="search-form">
+                    <input type="text" name="q" placeholder="Search for products..." class="search-input">
+                    <button type="submit" class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../products.html">Products</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="tee-product-container">
+        <section class="tee-product-image">
+            <img id="tee-product-img" src="../public/images/image12.jfif" alt="Product 12 Image">
+            <div class="tee-icons-overlay">
+                <button class="tee-btn-icon tee-btn-favorite" aria-label="Favorite Product">
+                    <i class="fas fa-heart"></i>
+                </button>
+                <button class="tee-btn-icon tee-btn-share" aria-label="Share Product">
+                    <i class="fas fa-share-alt"></i>
+                </button>
+            </div>
+        </section>
+
+        <h2 class="tee-product-title">Product 12</h2>
+
+        <section class="tee-product-details">
+            <p class="tee-product-price">₹699</p>
+            <article class="tee-product-description">
+                <p>Product description for Product 12.</p>
+            </article>
+        </section>
+
+        <section class="tee-product-actions">
+            <button class="tee-btn tee-btn-add-to-cart" aria-label="Add to Cart">Add to Cart</button>
+            <button class="tee-btn tee-btn-buy-now" aria-label="Buy Now">Buy Now</button>
+        </section>
+    </main>
+
+    <footer class="tee-site-footer">
+        <p>© 2025 Elite Wear | Contact: support@elitewear.com</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html> 
